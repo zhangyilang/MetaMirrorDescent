@@ -21,6 +21,8 @@ To build up the environment with `Anaconda`, please activate the target environm
 sh env_setup.sh
 ```
 
+To prepare the datasets, follow the instructions of [Torchmeta](https://github.com/tristandeleu/pytorch-meta). 
+
 Default experimental setups can be found in `main.py`. To carry out the numerical test, use the commands
 
 ```shell
