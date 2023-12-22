@@ -1,5 +1,5 @@
 # MetaMirrorDescent
-Implementation of [Meta-Learning with Versatile Loss Geometries for Fast Adaptation Using Mirror Descent]() (accepted by ICASSP 2024). 
+Implementation of [Meta-Learning with Versatile Loss Geometries for Fast Adaptation Using Mirror Descent](https://arxiv.org/abs/2312.13486) (accepted by ICASSP 2024). 
 
 Codes tested under the following environment:
 
