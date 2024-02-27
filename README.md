@@ -38,7 +38,7 @@ where `arguments` and `values` are the algorithm parameters that you want to alt
 > Y. Zhang, B. Li, and G. B. Giannakis, "Meta-Learning with Versatile Loss Geometries for Fast Adaptation Using Mirror Descent," *ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, Seoul, Korea, April 14-19, 2024.
 
 ```tex
-@inproceedings{iBaML, 
+@inproceedings{MetaMirrorDescent, 
   author={Zhang, Yilang and Li, Bingcong and Giannakis, Georgios B.}, 
   title={Meta-Learning with Versatile Loss Geometries for Fast Adaptation Using Mirror Descent}, 
   booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
