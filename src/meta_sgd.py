@@ -1,6 +1,6 @@
+import math
 from collections import OrderedDict
 
-import numpy as np
 import torch
 import torch.nn as nn
 from torchmeta.utils import gradient_update_parameters
@@ -15,7 +15,7 @@ class MetaSGD(MetaLearningAlgBase):
     def _get_meta_model(self) -> dict[str, nn.Module]:
         log_lr = nn.ParameterDict()
         for name, param in self._base_model.named_parameters():
-            log_lr[name.replace('.', '_')] = nn.Parameter(torch.zeros_like(param) + np.log(self.args.task_lr))
+            log_lr[name.replace('.', '_')] = nn.Parameter(torch.zeros_like(param) + math.log(self.args.task_lr))
 
         return {'init': self._get_base_model(),
                 'log_lr': log_lr}
