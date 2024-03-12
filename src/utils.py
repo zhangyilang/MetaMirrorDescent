@@ -1,9 +1,10 @@
-from typing import Sequence
+from typing import Sequence, Union
 
-from torch import Tensor
+import torch
 
 
-def split_tasks(task_batch: dict[str, Sequence[Tensor]], device: int) -> Sequence[Tensor]:
+def split_tasks(task_batch: dict[str, Sequence[torch.Tensor]],
+                device: Union[torch.device, str]) -> Sequence[torch.Tensor]:
     x_supp_batch, y_supp_batch = task_batch['train']
     x_qry_batch, y_qry_batch = task_batch['test']
 
