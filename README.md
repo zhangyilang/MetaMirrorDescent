@@ -35,7 +35,7 @@ where `arguments` and `values` are the algorithm parameters that you want to alt
 
 # Citation
 
-> Y. Zhang, B. Li, and G. B. Giannakis, "Meta-Learning with Versatile Loss Geometries for Fast Adaptation Using Mirror Descent," *ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, Seoul, Korea, April 14-19, 2024.
+> Y. Zhang, B. Li, and G. B. Giannakis, "Meta-Learning with Versatile Loss Geometries for Fast Adaptation Using Mirror Descent," *ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, Seoul, Korea, April 14-19, 2024, pp. 5220-5224, doi: 10.1109/ICASSP48485.2024.10448144. 
 
 ```tex
 @inproceedings{MetaMirrorDescent, 
@@ -45,7 +45,7 @@ where `arguments` and `values` are the algorithm parameters that you want to alt
   year={2024}, 
   volume={},
   number={},
-  pages={},
-  doi={}
+  pages={5220-5224},
+  doi={10.1109/ICASSP48485.2024.10448144}
 }
 ```
